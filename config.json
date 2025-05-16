@@ -1,0 +1,119 @@
+{
+    "box_data": [
+        {
+            "name": "Medium Box",
+            "SKU": "BX002",
+            "product_description": "A versatile box suitable for medium-sized items such as books, gadgets, or tools.",
+            "box_dimensions": {
+                "internal": {
+                    "length_metric": 14.5,
+                    "width_metric": 14.5,
+                    "height_metric": 14.0,
+                    "length_imperial": 5.71,
+                    "width_imperial": 5.71,
+                    "height_imperial": 5.51
+                },
+                "external": {
+                    "length_metric": 15,
+                    "width_metric": 15,
+                    "height_metric": 15,
+                    "length_imperial": 5.91,
+                    "width_imperial": 5.91,
+                    "height_imperial": 5.91
+                }
+            },
+            "lid_dimensions": {
+                "internal": {
+                    "length_metric": 14.8,
+                    "width_metric": 14.8,
+                    "height_metric": 1.2,
+                    "length_imperial": 5.83,
+                    "width_imperial": 5.83,
+                    "height_imperial": 0.47
+                },
+                "external": {
+                    "length_metric": 15.2,
+                    "width_metric": 15.2,
+                    "height_metric": 1.5,
+                    "length_imperial": 5.98,
+                    "width_imperial": 5.98,
+                    "height_imperial": 0.59
+                }
+            },
+            "volume_metric": 3375,
+            "volume_imperial": 206.62,
+            "price": 2.50,
+            "url": "https://example.com/medium-box",
+            "colorways": {
+                "box": [
+                    {"name": "Yellow", "hex": "#FFFF00", "material": "ABS", "opacity": 1.0},
+                    {"name": "Black", "hex": "#000000", "material": "PVC", "opacity": 1.0}
+                ],
+                "lid": [
+                    {"name": "Transparent", "hex": "#FFFFFF00", "material": "Polycarbonate", "opacity": 0.5},
+                    {"name": "Black", "hex": "#000000", "material": "PVC", "opacity": 1.0}
+                ],
+                "divider": [
+                    {"name": "White", "hex": "#FFFFFF", "material": "Polypropylene", "opacity": 1.0},
+                    {"name": "Grey", "hex": "#808080", "material": "ABS", "opacity": 1.0}
+                ]
+            },
+            "divider_tray": {
+                "included": true,
+                "layout": {"rows": 2, "columns": 3},
+                "dimensions": {
+                    "tray_internal": {
+                        "length_metric": 14.0,
+                        "width_metric": 14.0,
+                        "height_metric": 3.0,
+                        "length_imperial": 5.51,
+                        "width_imperial": 5.51,
+                        "height_imperial": 1.18
+                    },
+                    "tray_external": {
+                        "length_metric": 14.5,
+                        "width_metric": 14.5,
+                        "height_metric": 3.5,
+                        "length_imperial": 5.71,
+                        "width_imperial": 5.71,
+                        "height_imperial": 1.38
+                    },
+                    "divider": {
+                        "length_metric": 14.0,
+                        "width_metric": 1.0,
+                        "height_metric": 3.0,
+                        "length_imperial": 5.51,
+                        "width_imperial": 0.39,
+                        "height_imperial": 1.18
+                    }
+                }
+            },
+            "compatibility": {
+                "BX003": [
+                    {
+                        "type": "stacking",
+                        "rows": 2,
+                        "columns": 2
+                    },
+                    {
+                        "type": "nesting",
+                        "rows": 1,
+                        "columns": 2
+                    }
+                ],
+                "BX004": [
+                    {
+                        "type": "stacking",
+                        "rows": 1,
+                        "columns": 3
+                    },
+                    {
+                        "type": "nesting",
+                        "rows": 2,
+                        "columns": 3
+                    }
+                ]
+            }
+        }
+    ]
+}
